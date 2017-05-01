@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blasting off With Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">
+                    <p class="head">The Lord Of The Rings</p>
+                </a>
+                <button type='button' class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class='sr-only'>Toggle navigation</span>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+        </button>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12 col-md-offset-2">
+                <form action="" class="search-form">
+                    <div class="form-group has-feedback">
+                        <label for="search" class="sr-only">Search</label>
+                        <input type="text" class="form-control" id="search" placeholder="search">
+                        <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                    </div>
+                </form>
+            </div>
+            <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
+                <li><a href='table.html'>Movies and Books</a></li>
+                <li><a href='form.html'>Story Of Middle Earth</a></li>
+                <li><a href='#' data-toggle="dropdown">About<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a target="_blank" href='https://en.wikipedia.org/wiki/J._R._R._Tolkien'>J.R.R Tolkien</a></li>
+                        <li class='divider'></li>
+                        <li><a target="_blank" href='http://twitter.com/lotr?lang=es'>Twitter</a></li>
+                        <li><a target="_blank" href='http://facebook.com/lordoftheringstrilogy/'>Facebook</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row well well-lg">
+            <div class="col-md-6">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#main" data-toggle="tab">Home</a></li>
+                    <li><a href="#menu1" data-toggle="tab">Plot</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="menu1" class="tab-pane fade">
+                        <h3>Brief Synopsis</h3>
+                        <p> One day Gandalf comes to Frodo and tells him that he is in danger. It seems that the Ring originally belonged to Sauron, the Dark Lord. Sauron wants the Ring back so that he can conquer the world. Sauron is using Gollum, an evil hobbit who also wants the Ring, to find out who has it and where it can be located. Gandalf tells Frodo that the ring is a corrupting power, and that anyone who uses it will ultimately be destroyed by it if they do not part with it. Further, he tells Frodo that the Ring can only be destroyed by tossing it into a volcano at Mount Orodruin. Frodo tries to give the ring to Gandalf, but the wizard tells him that he (Frodo) was chosen to bear the responsibility; it is his fate. </p>
+                    </div>
+                    <br>
+                    <div id="main" class="tab-pane fade in active">
+                        <p class="lead">One Ring to rule them all, One Ring to find them, One Ring to bring them all, and in the darkness bind them.</p>
+                        <button type='button' class="btn btn-lg btn-success">Gondor</button>
+                        <button type='button' class="btn btn-lg btn-danger">Mordor</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 visible-md visible-lg">
+                <img src="http://www.goodwp.com/large/201211/25794.jpg" alt="Blassting Off">
+            </div>
+        </div>
+    </div>
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="name">Name:</label>
+            <div class="col-sm-10">
+                <input class="form-control" id="name" placeholder="Enter name">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2">Message:</label>
+            <div class="col-sm-10">
+                <input class="form-control" id="message" placeholder="Text a Message">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Send</button>
+            </div>
+        </div>
+    </form>
+    <div class="container foot">
+        <footer>
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <h4>Who We Are</h4>
+                <p>We are a little community, dedicated to provide informacion about the most famous work of J.R.R Tolkien, The Lord of the Rings trilogy.
+                <p><a href='index.html'>More About Us</a></p>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <h4>Get in Touch</h4>
+                <p>Want to get in touch with us? There's a few easy ways.</p>
+                <p>Chihuahua,FL 1500 <a href='index.html'>lotr@mail.com</a></p>
+            </div>
+    </div>
+    </footer>
+</body>
+
+</html>
